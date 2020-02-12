@@ -1,0 +1,12 @@
+{
+  "name": "coe03-aacb573ddcc6",
+  "devDependencies": {
+    "webpack": "^2.0",
+    "ts-loader": "*",
+    "typescript": "*"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  }
+}

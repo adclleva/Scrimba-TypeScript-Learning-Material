@@ -1,0 +1,13 @@
+// intersection types are basically combined interfaces
+import { Bear, Man, Pig } from './interfaces';
+
+let man: Man | Pig;
+let bear: Bear;
+let pig: Pig;
+
+type ManBearPig = Bear & Man & Pig
+
+let manBearPig: ManBearPig ;
+manBearPig.firstName = 'Dylan';
+manBearPig.claws = 3;
+manBearPig.bacon = false;
